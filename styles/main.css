@@ -1,0 +1,100 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Roboto", "sans-serif";
+}
+
+.task-manager__title {
+  font-size: 32px;
+  line-height: 37px;
+  font-style: normal;
+}
+
+.task-manager {
+  display: flex;
+  flex-direction: column;
+  width: 555px;
+  height: 353px;
+  background-color: #e0edfa;
+  border: 1px solid #000;
+  border-radius: 9px;
+}
+
+.add-title {
+  display: flex;
+  margin: 25px;
+}
+
+.add-tasks {
+  margin: 25px;
+}
+
+.task-container {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.input {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 22px;
+  font-size: 18px;
+  width: 100%;
+  margin: auto;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.add-btn {
+  background-color: #6fda9a;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 8px;
+}
+
+.edit-btn {
+  background: #6fc0da;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 16px;
+  font-size: 14px;
+  margin: 8px;
+  text-align: center;
+}
+
+.delete-btn {
+  background: #da6fa2;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 16px;
+  font-size: 14px;
+  margin: 8px 20px 8px 0px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  filter: brightness(110%);
+  cursor: pointer;
+}
