@@ -6,4 +6,4 @@ It's a simple task and to-do list manager made with HTML & CSS.
 ## More info
 
 - Design by: **[Dan Salahi](https://github.com/dansalahi)**
-- Figma link: [Travel with Us](https://www.figma.com/file/CPTvix0MULUYZHEHVxls8B/TODO-APP)
+- Figma link: [Task Manager](https://www.figma.com/file/CPTvix0MULUYZHEHVxls8B/TODO-APP)
