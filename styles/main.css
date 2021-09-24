@@ -1,27 +1,32 @@
 @import url(reset.css);
 
-html {
-  box-sizing: border-box;
+:root {
+  --darkColor: #515151;
+  --lightColor: #fff;
+  --lightGreen: #1abc9c;
+  --darkGreen: #16a085;
+  --lightBlue: #3498db;
+  --darkBlue: #2980b9;
+  --lightRed: #fc5c65;
+  --darkRed: #eb3b5a;
+  --taskManagerColor: #e0edfa;
 }
 
-body {
-  margin: 0;
+main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  flex-direction: column;
   min-height: 100vh;
-  font-family: "Roboto", "sans-serif";
 }
+
+/* section: task-manager */
 
 .task-manager__title {
-  font-size: 32px;
-  line-height: 37px;
-  font-style: normal;
+  font-size: 2rem;
 }
 
-.task-manager {
+#task-manager {
   display: flex;
   flex-direction: column;
   width: 555px;
@@ -100,3 +105,5 @@ body {
   filter: brightness(110%);
   cursor: pointer;
 }
+
+/* end of section: task-manager */

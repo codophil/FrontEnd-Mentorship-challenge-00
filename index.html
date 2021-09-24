@@ -8,58 +8,58 @@
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
-    <h1 class="task-manager__title">Task Manager</h1>
-    <section class="task-manager">
-      <form>
-        <div class="add-title">
-          <input
-            type="text"
-            class="input"
-            name="title-input"
-            id="title-input"
-            placeholder="Title"
-          />
-          <button type="submit" class="add-btn btn">ADD</button>
-        </div>
-        <div class="add-tasks">
-          <div class="task-container">
-            <input
-              type="text"
-              class="input task-input"
-              name="task"
-              id="task1"
-              placeholder="Task 1"
-              readonly
-            />
-            <button class="edit-btn btn">Edit</button>
-            <button class="delete-btn btn">Delete</button>
-          </div>
-          <div class="task-container">
+    <main>
+      <h1 class="task-manager__title">Task Manager</h1>
+    <section id="task-manager">
+          <div class="add-title">
             <input
               type="text"
               class="input"
-              name="task"
-              id="task2"
-              placeholder="Task 2"
-              readonly
+              name="title-input"
+              id="title-input"
+              placeholder="Title"
             />
-            <button class="edit-btn btn">Edit</button>
-            <button class="delete-btn btn">Delete</button>
+            <button type="submit" class="add-btn btn">ADD</button>
           </div>
-          <div class="task-container">
-            <input
-              type="text"
-              class="input"
-              name="task"
-              id="task3"
-              placeholder="Task 3"
-              readonly
-            />
-            <button class="edit-btn btn">Edit</button>
-            <button class="delete-btn btn">Delete</button>
+          <div class="add-tasks">
+            <div class="task-container">
+              <input
+                type="text"
+                class="input task-input"
+                name="task"
+                id="task1"
+                placeholder="Task 1"
+                readonly
+              />
+              <button class="edit-btn btn">Edit</button>
+              <button class="delete-btn btn">Delete</button>
+            </div>
+            <div class="task-container">
+              <input
+                type="text"
+                class="input"
+                name="task"
+                id="task2"
+                placeholder="Task 2"
+                readonly
+              />
+              <button class="edit-btn btn">Edit</button>
+              <button class="delete-btn btn">Delete</button>
+            </div>
+            <div class="task-container">
+              <input
+                type="text"
+                class="input"
+                name="task"
+                id="task3"
+                placeholder="Task 3"
+                readonly
+              />
+              <button class="edit-btn btn">Edit</button>
+              <button class="delete-btn btn">Delete</button>
+            </div>
           </div>
-        </div>
-      </form>
-    </section>
+        </section>
+      </main>
   </body>
 </html>
