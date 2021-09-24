@@ -9,6 +9,7 @@
   --darkBlue: #2980b9;
   --lightRed: #fc5c65;
   --darkRed: #eb3b5a;
+  --lightGray: #ccc;
   --taskManagerColor: #e0edfa;
 }
 
@@ -22,27 +23,32 @@ main {
 
 /* section: task-manager */
 
-.task-manager__title {
-  font-size: 2rem;
-}
-
 #task-manager {
   display: flex;
   flex-direction: column;
-  width: 555px;
-  height: 353px;
-  background-color: #e0edfa;
-  border: 1px solid #000;
-  border-radius: 9px;
+  background-color: var(--taskManagerColor);
+  border: 1px solid var(--lightGray);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem 0;
 }
 
-.add-title {
+.form-group {
   display: flex;
-  margin: 25px;
+  padding: 0.2rem;
+  margin: 0.3rem;
 }
 
-.add-tasks {
-  margin: 25px;
+.form-group input {
+  border: 1px solid var(--lightGray);
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+}
+
+.form-group button {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.4rem 0.8rem;
 }
 
 .task-container {
