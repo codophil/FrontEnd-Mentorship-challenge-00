@@ -41,15 +41,29 @@ main {
 
 .form-group input {
   border: 1px solid var(--lightGray);
-  border-radius: 0.5rem;
-  padding: 0.3rem;
+  border-radius: 0.3rem;
+  padding: 0.4rem;
+  margin:0 0.2rem;
+  outline: none;
+  transition: 0.2s;
+}
+
+.form-group input:focus {
+  box-shadow: 1px 1px 1px var(--lightBlue);
 }
 
 .form-group button {
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   padding: 0.4rem 0.8rem;
+  color: var(--darkColor);
+  background-color: var(--lightGreen);
 }
 
+.form-group button:hover {
+  cursor: pointer;
+  background-color: var(--darkGreen);
+  color: var(--lightColor);
+}
 
 /* end of section: task-manager */
